@@ -83,6 +83,7 @@ There are 2 key stratagies to engineer features:
 To solve this problem, I have created "adjusted" which normalize the values by year.  For a given stat catagory and a given year, the league leader of that stat will have an adjusted value of 1, while the worst player has an adjusted value of 0.  All players in between are given an adjusted value between 0 and 1 that is proportional to their standing (see example below).  The adjusted stats were calculed for all baseline stats across each year of analysis, allowing us to compare a league leader from 1993 to 2019 by how much better they were than their competition. 
 
 **Example:  2007 Adjusted Passing Yards**
+
 | Player | Passing Yards | Adjusted Passing Yards |
 | --- | --- | --- |
 | Tom Brady (leader) | 4806 | 1.00 |
