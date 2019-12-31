@@ -80,7 +80,7 @@ def save_comp_data(years,url_ext,prefix):
     stats_by_year = []
     for year in years:
         annual_count = len(stats_by_year)
-        passing_by_year += stats_scrape(passing_url,year,header_prefix = prefix)
+        stats_by_year += stats_scrape(passing_url,year,header_prefix = prefix)
         print ('{} Complete  -  New Entries = {}'.format(year,len(stats_by_year) - annual_count))
     print ('Finished')
 
